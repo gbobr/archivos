@@ -1,4 +1,4 @@
-# Trabajo práctico de punteros
+# Trabajo práctico de archivos
 
 En las carpetas ejercicio1 y ejercicio2 encontrará el enunciado de cada uno de los ejercicios.
 
