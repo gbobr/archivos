@@ -16,3 +16,4 @@ Todas las correcciones y comentarios serán realizados en el pull request.
 * Debe pasar satisfactoriamente el lote de prueba que se encuentra en test/input.txt generando exactamente la salida que puede verse en test/expected.bin
 * La coinidencia debe ser exacta bit a bit
 * El programa pasará por compilación automatizada por jenkins, puede ver el resultado del a compilación en la sección de comentarios del pull request.
+* Controle los posibles errores que pudieran ocurrir durante la operatoria con el archivo
