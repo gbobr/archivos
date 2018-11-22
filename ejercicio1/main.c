@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
 	int cant_alumnos, i;
 	struct alumno_t alumnos[MAX_ALUMNOS];
 	FILE* f;
-	f = fopen("salida.out", "+w");
+	f = fopen("salida.out", "w");
 	if(f){
         printf("ERROR en archivo: ");
 	}
@@ -22,7 +22,7 @@ int main(int argc, char* argv[])
 	scanf("%d", &cant_alumnos);
 
 	if(cant_alumnos > MAX_ALUMNOS) {
-		fprintf(stderr, "Error: Cantidad de alumnos no válida");
+		fprintf(stderr, "Error: Cantidad de alumnos no vÃ¡lida");
 		return -1;
 	}
 
@@ -37,7 +37,7 @@ int main(int argc, char* argv[])
 	printf("\n\n === Fin del ingreso, guardando datos ... ===");
 
 
-	//AGREGE A CONTINUACIÓN SU CÓDIGO
+	//AGREGE A CONTINUACIÃ“N SU CÃ“DIGO
 	//EL ARCHIVO DE SALIDA DEBE LLAMARSE 'salida.out'
     fwrite(alumnos, sizeof(struct alumno_t), cant_alumnos, f);
     fclose(f);
