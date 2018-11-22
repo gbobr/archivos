@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
 	scanf("%d", &cant_alumnos);
 
 	if(cant_alumnos > MAX_ALUMNOS) {
-		fprintf(stderr, "Error: Cantidad de alumnos no válida");
+		fprintf(stderr, "Error: Cantidad de alumnos no vÃ¡lida");
 		return -1;
 	}
 
@@ -32,11 +32,11 @@ int main(int argc, char* argv[])
 	printf("\n\n === Fin del ingreso, guardando datos ... ===");
 
 
-	//AGREGE A CONTINUACIÓN SU CÓDIGO
+	//AGREGE A CONTINUACIÃ“N SU CÃ“DIGO
 	//EL ARCHIVO DE SALIDA DEBE LLAMARSE 'salida.out'
-
+	char archivo[11] = "salida.out";
         FILE *listado;
-        listado= fopen("salida.out", "wb");
+        listado= fopen(archivo, "w+");
         fwrite(alumnos, sizeof(struct alumno_t),cant_alumnos,listado);
         fclose(listado);
 
