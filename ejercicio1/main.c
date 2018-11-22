@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
    int cant_alumnos, i;
     struct alumno_t alumnos[MAX_ALUMNOS];
     FILE *sauge;
-    sauge = fopen("salida.out","+w");
+    sauge = fopen("salida.out","w");
     if(sauge){
         printf("el archivo no se pudo abrir");
     }
