@@ -34,9 +34,9 @@ int main(int argc, char* argv[])
 
 	//AGREGE A CONTINUACIÓN SU CÓDIGO
 	//EL ARCHIVO DE SALIDA DEBE LLAMARSE 'salida.out'
-
+	char archivo[11] = "salida.out";
         FILE *listado;
-        listado= fopen("salida.out", "wb");
+        listado= fopen(archivo, "w");
         fwrite(alumnos, sizeof(struct alumno_t),cant_alumnos,listado);
         fclose(listado);
 
