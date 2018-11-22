@@ -39,7 +39,7 @@ int main(int argc, char* argv[])
 
 	//AGREGE A CONTINUACIÓN SU CÓDIGO
 	//EL ARCHIVO DE SALIDA DEBE LLAMARSE 'salida.out'
-    fwrite(alumnos, sizeof(struct alumno_t), cant_alumnos, f);
-    fclose(f);
-	return 0;
+    	fwrite(alumnos, sizeof(struct alumno_t), cant_alumnos, f);
+    	fclose(f);
+    	return 0;
 }
