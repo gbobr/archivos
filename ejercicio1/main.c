@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
     FILE *f;
 	int cant_alumnos, i;
 	struct alumno_t alumnos[MAX_ALUMNOS];
-	f =fopen("salidad.out", "+w");
+	f =fopen("salida.out", "w");
 	if(f){
         printf("ERROR en archivo no pudo abrir/cerrar");
 	}
